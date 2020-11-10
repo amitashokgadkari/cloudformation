@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: This is first sample
+Resources:
+  AWS101BUCKET01:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead
+      BucketName: aws101bucket01
+      Tags:
+        - Key: Name
+          Value: aws101bucket01
+
+
+
+
